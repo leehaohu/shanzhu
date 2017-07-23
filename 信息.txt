@@ -1,0 +1,31 @@
+任务分配：
+	姓名：		任务				完成时间
+	崔凡	个人主页   官方微信页面   完善个人资料 
+	要宵萤	登录
+	李郝虎	修改登录密码   系统设置
+	柴武杰	应用信息
+	肖婵瑶	充值记录  消费记录
+	张星莹	应用详情
+	吴倩	账户信息	  账户信息-应用选择1 注册量系统				
+
+登录		log
+个人主页 	index 
+官方微信页面	smaLetter
+完善个人资料     data		
+修改登录密码	revisePass
+系统设置         setSystem
+应用信息	         appMsg
+充值记录		addHistroy
+消费记录		consumeHistroy
+应用详情        appDetail
+账户信息		accountMsg
+账户信息-应用选择1  accountMsgSelect
+注册量系统       regSystem
+
+
+图片命名     网页名+自定义图片名	
+
+******页面之间有联系的多沟通，规范尽量一致******
+			
+页面名字加上汉语   方便						
+

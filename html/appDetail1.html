@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/base1.css"/>
+		<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../css/appDetail.css" />
+		<script src="../js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript">
+			$(function(){
+					(function(win, doc) {
+			//浏览器缩放时
+			win.onresize = function() {
+				change();
+			};
+			change();
+
+			function change() {
+				var oFs = doc.documentElement.clientWidth / (640/ 20);
+				//设置根目录字体大小
+				doc.documentElement.style.fontSize = oFs + 'px';
+			}
+		})(window, document);
+			})
+	
+	</script>
+	</head>
+
+	<body>
+		<header class="clearfix">
+			<a href="appMsg1.html"><img src="../img/return.png" alt="" /></a>
+			<p class="txt">天天消消乐 <i class="fa fa-caret-down"></i></p>
+		</header>
+		<div class="content">
+			<div class="main1">
+				 <img src="../img/main1_03.png"/>
+				 <div>
+				 	<p class="t_p">
+				 		<span>开心消消乐</span>
+				 		<span>【签名：消消乐】</span>
+				 	</p>
+				 	<div>账号状态：正常</div>
+				 </div>
+			</div>
+			<div class="main2">
+				<ul>
+					<li>
+						<div>
+							<p>短信量（条）</p>
+							<p>962</p>
+						</div>
+						<div>
+							<p>应用场景</p>
+							<p>APP、H5、web</p>
+						</div>
+						<a href="appDetail3.html"><input type="button" id="" value="余额转换" /></a>
+					</li>
+					<li>
+						<div>
+							<p>闪注量（条）</p>
+							<p>8502</p>
+						</div>
+						<div>
+							<p>到期时间</p>
+							<p>2016/7/1~2017/7/1</p>
+						</div>
+						<a href="appDetail2.html"><input type="button" id="" value="充值" /></a>
+					</li>
+				</ul>
+			</div>
+			<div class="main3">
+				<img src="../img/main3_07.png"/>
+				<div>
+					<img src="../img/1_10.png"/>
+					<p>近三个月充值</p>
+					<div class="t_d">
+						<p>2016/7/10</p>
+						<p>充值中心：闪注<span>10000</span>条</p>
+						<p>短信100条</p>
+					</div>
+					<div class="b_d">
+						<p>2016/7/8</p>&nbsp;&nbsp;
+						<p>充值中心：闪注<span>20000</span>条</p>
+						<p>短信5000条</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+
+</html>

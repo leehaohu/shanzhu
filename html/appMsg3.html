@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/base1.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/appMsg3.css"/>
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header_top">
+				<a href="appMsg2.html"><img src="../img/info_left_03.png"></a>
+				<p>新增应用</p>
+			</div>
+			<div class="header_bottom">
+				<img src="../img/msg_banner_02.png">
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="b-img">
+				<img src="../img/appMsg3_03.png">
+			</div>
+			<div class="b-font">
+				<p>您的字杭虎暂无应用信息</p>
+				<p>请用PC端登录<a href="#"><span>http://shanchu.mtd.cn/</span>添加应用</a></p>
+			</div>
+		</div>
+		<script>
+			(function(win, doc) {
+			win.onresize = function() {
+				change();
+			};
+			change();
+			function change() {
+				var oFs = doc.documentElement.clientWidth / (640/ 20);
+				//设置根目录字体大小
+				doc.documentElement.style.fontSize = oFs + 'px';
+			}
+			})(window, document);
+		</script>
+	</body>
+</html>

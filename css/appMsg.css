@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box; }
+
+#header {
+  width: 100%;
+  height: 3.7rem;
+  background-color: #feb02a;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1.1rem 0.8rem 1.1rem 1.2rem; }
+  #header div {
+    width: 30rem;
+    height: 1.5rem;
+    -border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    -border: 1px solid red; }
+    #header div img {
+      height: 1.4rem; }
+    #header div .header-text {
+      font-size: 1.5rem;
+      -border: 1px solid red;
+      position: absolute;
+      left: 11.7rem;
+      top: -0.3rem; }
+    #header div .header-text2 {
+      font-size: 1.4rem; }
+
+.content {
+  width: 100%;
+  height: 51.5rem;
+  background-color: #f5f5f5; }
+  .content .main1 {
+    width: 100%;
+    padding: 1.85rem 1.75rem;
+    display: flex;
+    background-color: white; }
+    .content .main1 img {
+      -width: 5.2rem;
+      height: 5.3rem; }
+    .content .main1 > div {
+      margin-left: 1.5rem; }
+      .content .main1 > div .t_p {
+        padding-top: 0.9rem;
+        padding-bottom: 1.2rem;
+        display: flex;
+        align-items: center; }
+        .content .main1 > div .t_p span:first-child {
+          font-size: 1.6rem;
+          color: #ff4b00; }
+        .content .main1 > div .t_p span:last-child {
+          font-size: 1.1rem;
+          color: #6f6f6f; }
+      .content .main1 > div div {
+        font-size: 1.1rem;
+        color: #6f6f6f; }
+  .content .main2 {
+    width: 30rem;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    margin: 0 auto;
+    padding-left: 0.6rem; }
+    .content .main2 li {
+      -border: 1px solid blue;
+      height: 4.1rem;
+      line-height: 4.1rem;
+      font-size: 1.1rem; }
+      .content .main2 li .c-black1 {
+        font-size: 1.1rem;
+        color: black; }
+      .content .main2 li .c-black2 {
+        font-size: 0.6rem;
+        color: black; }
+
+.c-black3 {
+  font-size: 1rem;
+  color: black; }
+
+.c-red {
+  font-size: 1.1rem;
+  color: #fe4f00; }
+
+.d-block {
+  display: inline-block;
+  margin-left: 4.8rem; }
+
+.w-100 {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9; }
+
+.w-101 {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #d9d9d9;
+  margin-top: 1rem;
+  border-top: 1px solid #d9d9d9; }
+
+/*# sourceMappingURL=appMsg.css.map */

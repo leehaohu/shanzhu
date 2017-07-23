@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.header{
+	width: 100%;
+	height:4rem;
+	background: #FA5A2C;
+}
+.header:after{
+	display: block;
+	content:"";
+	clear: both;
+}
+.header .im1{
+	/*display: block;*/
+	float: left;
+	margin-top: 25px;
+	margin-left: 24px;
+}
+.header .wq{
+	/*display: block;*/
+	float: left;
+	margin-top: 25px;
+	padding-left: 208px;
+}
+.header .wq .sw{
+	width: 100%;
+	height: 24rem;
+	background: white;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	display: none;
+}
+.header .wq .oo{
+	width: 100%;
+	height: 22rem;
+	position: absolute;
+	top: 520px;
+	left: 0;
+	background: #5C5C5C;
+	display: none;
+}
+.header .wq .sw .sw1{
+	width: 100%;
+	height: 6.85rem;
+	/*background: blue;*/
+}
+.header .wq .sw .sw2{
+	width: 100%;
+	height: 8.85rem;
+	/*background: green;*/
+}
+.wang{
+	width: 100%;
+}
+.header .wq .sw .sw3{
+	width: 100%;
+	height: 8.85rem;
+	/*background: green;*/
+}
+.header .wq .sw .sw3 .ex2{
+	float: left;
+	width: 250px;
+	height: 0.2rem;
+	background: #F2F2F2;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.header .wq .sw .sw3 span{
+	float: left;
+}
+.header .wq .sw .sw3 .ex3{
+	float: left;
+	width: 250px;
+	height: 0.2rem;
+	background: #F2F2F2;
+	margin-top: 10px;
+}
+.header .wq .sw .sw3 .ex{
+	float: left;
+	width: 178px;
+	height: 3.4rem;
+	background: #E0E0E0;
+	border-radius: 5px;
+	margin-left: 28px;
+	margin-top: 2.15rem;
+	text-align: center;
+	line-height: 3.4rem;
+}
+.header .wq .sw .sw3 .ex1{
+	float: left;
+	width: 178px;
+	height: 3.4rem;
+	background: #E0E0E0;
+	border-radius: 5px;
+	margin-top: 2.15rem;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 3.4rem;
+}
+.header .wq .sw .sw2 .ex2{
+	float: left;
+	width: 250px;
+	height: 0.2rem;
+	background: #F2F2F2;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.header .wq .sw .sw2 span{
+	float: left;
+}
+.header .wq .sw .sw2 .ex3{
+	float: left;
+	width: 250px;
+	height: 0.2rem;
+	background:#F2F2F2;
+	margin-top: 10px;
+}
+.header .wq .sw .sw2 .ex{
+	float: left;
+	width: 178px;
+	height: 3.4rem;
+	background: #E0E0E0;
+	border-radius: 5px;
+	margin-left: 28px;
+	margin-top: 2.15rem;
+	text-align: center;
+	line-height: 3.4rem;
+}
+.header .wq .sw .sw2 .ex1{
+	float: left;
+	width: 178px;
+	height: 3.4rem;
+	background: #E0E0E0;
+	border-radius: 5px;
+	margin-top: 2.15rem;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 3.4rem;
+}
+/*.header .wq .sw .sw2 span{
+	float: left;
+}*/
+.header .wq .sw p{
+	width: 178px;
+	height: 3.4rem;
+	background: orange;
+	border-radius: 5px;
+	/*line-height: 6.8rem;*/
+	margin-top: 36px;
+	margin-left: 28px;
+	text-align: center;
+	line-height: 3.4rem;
+}
+.header .wq p{
+	float: left;
+	color: white;
+	font-size: 25px;
+}
+.header .wq .im2{
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.banner{
+	width: 100%;
+	
+}
+.banner img{
+	width: 100%;
+	vertical-align: top;
+}
+.contains{
+	width: 100%;
+	height:3.8rem;
+	background: #FFB900;
+}
+.contains .menu{
+	width: 100%;
+	height:3.8rem;
+}
+.contains .menu li{
+	float: left;
+	width: 33%;
+	text-align: center;
+	line-height: 3.8rem;
+	color: white;
+	opacity: 0.5;
+}
+.contains .menu li.menu1{
+	opacity: 1;
+	border-bottom: 1px solid red;
+}
+.trips{
+	width: 100%;
+}
+.trips .wbd{
+	width: 100%;
+	height: 1.5rem;
+	margin-top: 0.8rem;
+	
+}
+.trips .wbd div{
+	float: left;
+	margin-left: 1.4rem;
+	border: 1px solid red;
+	border-radius: 10px;
+	color: orange;
+	
+}
+.trips li{
+	height: 8.8rem;
+	border-bottom: 1px solid gray;
+}
+.trips li h2{
+	padding-top: 1.8rem;
+	margin-left: 1.4rem;
+}
+.trips li p{
+	margin-left: 1.4rem;
+	margin-top: 1rem;
+}
+.li{
+	border-bottom: 2px solid red;
+}
+.footer{
+	width: 100%;
+	display: none;
+}
+
+div.show{
+	display: block;
+}

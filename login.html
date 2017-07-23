@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>登录页面</title>
+		<link rel="stylesheet" href="css/dl.css" />
+	</head>
+	<body>
+		<script>
+			window.onload=function(){
+							function change(){
+				var oFs=document.documentElement.clientWidth/(320/20);
+				document.documentElement.style.fontSize=oFs+"px";
+			}
+			change();
+			window.onresize=function(){
+				change();
+			}
+			var user=document.getElementsByClassName("user")[0];
+			var pas=document.getElementsByClassName("pas")[0];
+//			var btn=document.getElementsByClassName("lg-btn")[0];
+			var btn=document.getElementById("btn");
+
+//			btn.onclick=function(){
+//				if(user.value.length>11){
+//				alert("输入的数字不能大于11位！");
+//				console.log(11);
+//			};
+//			}
+			user.onblur=function(){
+			if(user.value.length>11||user.value.length<11){
+				alert("输入的数字不能不等于11位！");
+				console.log(22);
+			};
+		};
+	
+	}
+
+			
+		</script>
+		<div class="header">
+			<img src="img/logo2.png" alt="" />
+		</div>
+		<div class="body">
+			<input type="text" class="user" placeholder="用户名/手机密码"/>
+			<input type="password" class="pas" placeholder="密码"/>
+			<img src="img/tel_03.png" alt="" class="lg-tel"/>
+			<img src="img/key_03.png" alt="" class="lg-key"/>
+		</div>
+		<a href="index.html"><input type="button" value="登录" class="lg-btn" id="btn"/></a>
+		<a href="forgerpassword.html"><p class="lg-p">忘记密码</p></a>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #f5f5f5; }
+
+header {
+  width: 100%;
+  height: 3.7rem;
+  background: #ffac2c;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3.7rem;
+  color: #fff; }
+  header img {
+    position: absolute;
+    width: 0.75rem;
+    height: 1.5rem;
+    left: 1.2em;
+    top: 1rem; }
+
+.content {
+  width: 100%; }
+  .content .inpassword {
+    width: 100%;
+    height: 3.7rem;
+    line-height: 3.7rem;
+    font-size: 1.2rem;
+    color: #878787;
+    padding-left: 1.5rem; }
+  .content .inp {
+    width: 100%;
+    height: 4rem;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    padding-left: 1.5rem;
+    line-height: 4rem;
+    position: relative; }
+    .content .inp p {
+      font-size: 1.2rem; }
+    .content .inp img {
+      position: absolute;
+      top: 1.3rem;
+      right: 1.4rem; }
+
+/*# sourceMappingURL=testType.css.map */

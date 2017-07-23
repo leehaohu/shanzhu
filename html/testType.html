@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/base1.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/testType.css"/>
+		<script>
+			(function(win,doc){
+				//浏览器缩放时
+				win.onresize=function(){
+					change();	
+				};
+				change();
+				function change(){
+					var oFs=doc.documentElement.clientWidth/(640/20);
+					//设置根目录字体大小
+					doc.documentElement.style.fontSize=oFs+'px';	
+				}	
+			})(window,document);
+		</script>
+	</head>
+	<body>
+		<header class="clearfix">
+			<a href="setSystem.html"><img src="../img/return.png" alt="" /></a>
+			<p class="txt">密码验证</p>
+		</header>
+		<div class="content">
+			<div class="inpassword">请任意一种方式进行密码修改</div>
+			<div class="inp">
+				<a href="revisePass.html">
+					<p>通过原登录密码验证</p>
+					<img src="../img/go.png" alt="" />
+				</a>
+			</div>
+			<div class="inp">
+				<a href="yanNum.html">
+					<p>通过手机号进行验证</p>
+					<img src="../img/go.png" alt="" />
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

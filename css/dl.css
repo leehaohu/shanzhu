@@ -1,0 +1,79 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	width:100%;
+	height:100%;
+	font-family: "微软雅黑";
+	font-size:0.5rem;
+}
+a{
+	text-decoration:none;
+}
+.header{
+	width:100%;
+	height:8.25rem;
+}
+.header>img{
+	width:100%;
+	height:8.25rem;
+}
+.user{
+	margin-top:2.325rem;
+	margin-left:0.6rem;
+	width:14.575rem;
+	height:2.125rem;
+	padding:0.7rem 0.7rem;
+	border:0;
+	outline: none;
+	border-bottom:0.025rem solid #ccc!important;
+}
+.body{
+	width:100%;
+	height:9.5rem;
+	position: relative;
+}
+.pas{
+	margin-left:0.6rem;
+	width:14.575rem;
+	height:2.125rem;
+	padding:0.7rem 0.9rem;
+	border:0;
+	outline: none;
+	border-bottom:0.025rem solid #ccc!important;
+}
+.lg-tel,.lg-key{
+	position:absolute;
+	left:0.6rem;
+	height:0.85rem;
+	box-sizing: border-box;
+}
+.lg-tel{
+	top:3.7rem;
+}
+.lg-key{
+	top:7.2rem;
+}
+.lg-btn{
+	margin-left:0.4rem;
+	margin-top:1.5rem;
+	height:2.15rem;
+	width:15.25rem;
+	background:#ffd974;
+	color:white;
+	line-height:2.15rem;
+	text-align: center;
+	border-radius:1rem;
+	border: none;
+	font-size:0.7rem;
+	border:0;
+	outline: none;
+}
+.lg-p{
+	color:orange;
+	margin-top:4.5rem;
+	width:100%;
+	margin-left:6.75rem;
+	font-size:0.6rem;
+}

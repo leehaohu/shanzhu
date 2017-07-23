@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+html {
+  width: 18rem; }
+
+.nav {
+  width: 18rem;
+  position: relative; }
+  .nav img {
+    width: 18rem;
+    height: 12rem; }
+  .nav .po {
+    position: absolute;
+    top: 3.35rem;
+    left: 7rem; }
+    .nav .po .nav-con img {
+      width: 4.7rem;
+      height: 4.7rem; }
+    .nav .po .nav-top {
+      font-size: 0.6rem;
+      margin-top: 0.7rem;
+      width: 6.1rem;
+      display: flex;
+      color: white;
+      justify-content: space-between;
+      line-height: 1rem; }
+      .nav .po .nav-top img {
+        width: 0.35rem;
+        height: 0.55rem; }
+      .nav .po .nav-top p {
+        width: 3.2rem;
+        height: 1rem;
+        background: #FFC901;
+        line-height: 1rem;
+        align-items: center;
+        text-align: center;
+        color: white; }
+
+.content {
+  width: 18rem;
+  padding-bottom: 0.2rem; }
+  .content .con {
+    width: 16.9rem;
+    margin: 0 auto;
+    font-size: 0.6rem;
+    color: gray; }
+    .content .con:after {
+      display: block;
+      clear: both;
+      content: ""; }
+    .content .con .con-left {
+      float: left;
+      width: 7.65rem;
+      padding-top: 0.7rem; }
+      .content .con .con-left div span {
+        padding-top: 1.25rem;
+        display: inline-block;
+        font-size: 1.3rem;
+        color: red; }
+    .content .con .con-right {
+      width: 9.1rem;
+      float: right; }
+      .content .con .con-right img {
+        width: 9.1rem; }
+      .content .con .con-right p {
+        color: gray;
+        font-size: 0.4rem;
+        padding-top: 0.5rem; }
+
+.con2 {
+  width: 18rem;
+  height: 17.73rem;
+  background: #F5F5F5;
+  padding-top: 0.8rem; }
+  .con2 ul {
+    width: 18rem; }
+    .con2 ul li {
+      padding-left: 0.7rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: white; }
+      .con2 ul li img {
+        display: inline-block;
+        width: 2.25rem;
+        height: 2rem; }
+      .con2 ul li .listyle {
+        border-bottom: 5px solid #F5F5F5; }
+      .con2 ul li .listyle1, .con2 ul li .listyle {
+        width: 14.75rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.8rem; }
+        .con2 ul li .listyle1 .list-right, .con2 ul li .listyle .list-right {
+          align-items: center;
+          width: 7.5rem;
+          display: flex;
+          justify-content: space-between; }
+          .con2 ul li .listyle1 .list-right div, .con2 ul li .listyle .list-right div {
+            color: red;
+            font-size: 0.8rem; }
+          .con2 ul li .listyle1 .list-right img, .con2 ul li .listyle .list-right img {
+            display: inline-block;
+            height: 0.75rem;
+            width: 0.5rem;
+            right: 0.3rem; }
+  .con2 .con4 {
+    margin-top: 1rem; }
+    .con2 a {
+    	color:  #4a4a4a;
+    }
+  .con2 .con3, .con2 .con4 {
+    width: 17.2rem;
+    padding-left: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white; }
+    .con2 .con3 .img, .con2 .con4 .img {
+      width: 2.25rem;
+      height: 2rem; }
+    .con2 .con3 .con3-1, .con2 .con4 .con3-1 {
+      width: 14.9rem;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      padding: 0.7rem; }
+      .con2 .con3 .con3-1 img, .con2 .con4 .con3-1 img {
+        height: 0.75rem;
+        width: 0.5rem; }
+
+/*# sourceMappingURL=index.css.map */

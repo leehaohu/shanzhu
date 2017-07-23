@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/base1.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/yanNum.css"/>
+		<script src="../js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script>
+			(function(win,doc){
+				//浏览器缩放时
+				win.onresize=function(){
+					change();	
+				};
+				change();
+				function change(){
+					var oFs=doc.documentElement.clientWidth/(640/20);
+					//设置根目录字体大小
+					doc.documentElement.style.fontSize=oFs+'px';	
+				}	
+			})(window,document);
+			
+		</script>
+	</head>
+	<body>
+		<header class="clearfix">
+			<a href="testType.html"><img src="../img/return.png" alt="" /></a>
+			<p class="txt">登录密码验证</p>
+		</header>
+		<div class="content">
+			<div class="inpassword">
+				验证手机号已发送到手机号为：</br>
+				<span id="phoneNumber">18634541524</span>
+			</div>
+			<div class="inp">
+				<img src="../img/lock.png" alt="" />
+				<input type="text" placeholder="输入原登录密码" maxlength="5" id="keyWord"/ class="inpt">
+				<input type="button" value="发送验证码" class="send" id="fa"/>
+			</div>
+			<a href="revisePass.html"><input type="button" class="sure" value="确定" id="yes"/></a>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var phn=$("#phoneNumber").text()
+		var ophn=phn.split('')
+		ophn.splice(3,4,'*','*','*','*')
+		console.log(ophn)
+		var ophn1=ophn.join('')
+		phn=$("#phoneNumber").text(ophn1)
+		$("#fa").click(function(){
+			var n=60
+			$(this).attr({"disabled":true})
+			var timer=setInterval(function(){
+					n--
+					if(n<1){
+						clearInterval(timer)
+						$(this).attr({"disabled":true})
+					}
+					$(".send").val(n+'s')
+				},1000)
+		})
+	</script>
+</html>
+

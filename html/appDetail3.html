@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /
+		<title></title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/base1.css" />
+		<link rel="stylesheet" href="../css/appDetails3.css" />
+		<script src="../js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				(function(win, doc) {
+					//浏览器缩放时
+					win.onresize = function() {
+						change();
+					};
+					change();
+
+					function change() {
+						var oFs = doc.documentElement.clientWidth / (640 / 20);
+						//设置根目录字体大小
+						doc.documentElement.style.fontSize = oFs + 'px';
+					}
+				})(window, document);
+				
+				
+				$(".main4>div").click(function(){
+					$(".alt").css("display","block")
+					$(".bg").css({"background":"#333","width":"100%","height":"100%","opacity":"0.5","position":"absolute","index":"22","top":0,"display":"block"})
+				})
+				$(".alt>div").click(function(){
+					$(".alt").css("display","none")
+					$(".bg").css("display","none")
+				})
+			})
+		</script>	
+	</head>
+	<body>
+		<header class="clearfix">
+			<a href="appDetail1.html"><img src="../img/return1_03.png" alt="" class="img"/></a>
+			<p class="txt">余额转换</p>
+		</header>
+		<div class="content">
+			<div class="main1">
+				<img src="../img/zfb_07.png"/>
+				<div>您仅可以将短信量转换为闪注量</div>
+			</div>
+			<div class="main2">
+				当前短信账户余额为：<span>100</span>条
+			</div>
+			<ul class="main3">
+				<li>
+					短信量
+					<div>
+						<input type="text" value="您最多可转换短信量100条"/>
+					</div>
+				</li>
+				<li>
+					闪注量
+					<div>
+						<input type="text" value="0"/>
+					</div>
+				</li>
+			</ul>
+			<div class="main4">
+				<div>
+					<a href="#">余额转换</a>
+				</div>
+			</div>
+		</div>
+		<div class="alt">
+			<p>余额转换成功</p>
+			<div>
+				<a href="#">确定</a>
+			</div>
+		</div>
+		<div class="bg"></div>
+	</body>
+</html>

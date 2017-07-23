@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/base1.css"/>
+		<link rel="stylesheet" href="../css/appMsg2.css"/>
+		<script src="js/3.16.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header_top">
+				<a href="appMsg1.html"><img src="../img/info_left_03.png"></a>
+				<p>新增应用</p>
+			</div>
+			<div class="header_bottom">
+				<img src="../img/msg_banner_02.png">
+			</div>
+		</div>
+		<div class="main">
+			<ul>
+				<li class="teshu">应用信息</li>
+				<li>
+					<div class="mm">
+						<p class="left">
+						<span class="font_img">*</span>接口密码
+						</p>
+					<a href="#">
+						<div class="right">
+							<p>SDK或者接口密码</p>
+							<img src="../img/msg_right_09.png"/>
+						</div>
+					</a>
+				</li>
+				<li>
+					<div class="mm">
+						<p class="left">
+						<span class="font_img">*</span>通信密匙
+						</p>
+					<a href="#">
+						<div class="right">
+							<p>SDK或者接口通信加解密秘钥</p>
+							<img src="../img/msg_right_09.png"/>
+						</div>
+					</a>
+				</li>
+				<li class="teshu">APP信息</li>
+				<li>
+					<div class="mm">
+						<p class="left">
+							名称
+						</p>
+					<a href="#">
+						<div class="right">
+							<p>APP的名称</p>
+							<img src="../img/msg_right_09.png"/>
+						</div>
+					</a>
+				</li>
+				<li>
+					<div class="mm">
+						<p class="left">
+							包名
+						</p>
+					<a href="#">
+						<div class="right">
+							<p>APP的真实包名</p>
+							<img src="../img/msg_right_09.png"/>
+						</div>
+					</a>
+				</li>
+				<li>
+					<div class="mm">
+						<p class="left">
+							包名
+						</p>
+					<a href="#">
+						<div class="right">
+							<p>APP的真实包名</p>
+							<img src="../img/msg_right_09.png"/>
+						</div>
+					</a>
+				</li>
+				<li>
+					<div class="mm">
+						<p class="left">
+							LOGO文件
+						</p>
+					<a href="#">
+						<div class="right">
+							<p>图片类型:jpg、png大小:1M</p>
+							<img src="../img/msg_right_09.png"/>
+						</div>
+					</a>
+				</li>
+				<li>
+					<div class="mm">
+						<p class="left">
+							APP截图
+						</p>
+					<a href="#">
+						<div class="right">
+							<p>图片类型:jpg、png大小:1M</p>
+							<img src="../img/msg_right_09.png"/>
+						</div>
+					</a>
+				</li>
+				<li class="teshu">
+					H5/web信息<span class="teshu_red">
+						用户注册时发送的短信内容(此内容为前缀、后跟校验码)
+					</span>
+				</li>
+				<li>
+					<div class="mm">
+						<p class="left">
+							短信内容
+						</p>
+					<a href="#">
+						<div class="right">
+							<p>长度不得超过20个字</p>
+							<img src="../img/msg_right_09.png"/>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer">
+				<a href="appMsg3.html">
+					<div class="sub">提交</div>
+				</a>
+		</div>
+		<script>
+			(function(win, doc) {
+			win.onresize = function() {
+				change();
+			};
+			change();
+			function change() {
+				var oFs = doc.documentElement.clientWidth / (640/ 20);
+				//设置根目录字体大小
+				doc.documentElement.style.fontSize = oFs + 'px';
+			}
+			})(window, document);
+		</script>
+	</body>
+</html>

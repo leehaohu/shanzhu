@@ -1,0 +1,295 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: #F5F5F5;
+}
+.header{
+	width: 100%;
+	height:5.7rem;
+	background: #FFAC2C;
+}
+.header .im1{
+	/*display: block;*/
+	float: left;
+	margin-top: 25px;
+	margin-left: 24px;
+}
+.header .wq{
+	/*display: block;*/
+	float: left;
+	margin-top: 25px;
+	padding-left: 208px;
+}
+.header .wq p{
+	float: left;
+	color: white;
+	font-size: 25px;
+}
+.header:after{
+	display: block;
+	content:"";
+	clear: both;
+}
+.header .wq .im2{
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.header .wq .sw{
+	width: 100%;
+	height: 24rem;
+	background: white;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	display: none;
+}
+.header .wq .sw .sw1{
+	width: 100%;
+	height: 6.85rem;
+	/*background: blue;*/
+}
+.header .wq .sw .sw2{
+	width: 100%;
+	height: 8.85rem;
+	/*background: green;*/
+}
+.header .wq .sw .sw2 .ex2{
+	float: left;
+	width: 250px;
+	height: 0.2rem;
+	background:#F5F5F5;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.header .wq .sw .sw2 span{
+	float: left;
+}
+.header .wq .sw .sw2 .ex3{
+	float: left;
+	width: 250px;
+	height: 0.2rem;
+	background: #F5F5F5;
+	margin-top: 10px;
+}
+.header .wq .sw .sw2 .ex{
+	float: left;
+	width: 178px;
+	height: 3.4rem;
+	background: #E0E0E0;
+	border-radius: 5px;
+	margin-left: 28px;
+	margin-top: 2.15rem;
+	text-align: center;
+	line-height: 3.4rem;
+}
+.header .wq .sw .sw2 .ex5{
+	float: left;
+	width: 178px;
+	height: 3.4rem;
+	background: #E0E0E0;
+	border-radius: 5px;
+	margin-left: 28px;
+	margin-top: 2.15rem;
+	text-align: center;
+	line-height: 3.4rem;
+}
+.header .wq .sw .sw2 .ex1{
+	float: left;
+	width: 178px;
+	height: 3.4rem;
+	background: #E0E0E0;
+	border-radius: 5px;
+	margin-top: 2.15rem;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 3.4rem;
+}
+.header .wq .sw p{
+	width: 178px;
+	height: 3.4rem;
+	background: orange;
+	border-radius: 5px;
+	/*line-height: 6.8rem;*/
+	margin-top: 36px;
+	margin-left: 28px;
+	text-align: center;
+	line-height: 3.4rem;
+}
+.wo{
+	width: 100%;
+	height: 8.35rem;
+	background:#FFAC2C;
+	color: white;
+}
+.wo .wo1{
+	width: 48%;
+	border-right: 1px solid #FAFAFA;
+	float: left;
+}
+.wo .wo1 p{
+	margin-left: 64px;
+}
+.wo .wo1 div{
+	margin-left: 64px;
+	margin-top: 26px;
+}
+.wo .wo1 div span{
+	font-size: 34px;
+}
+.wo .wo2 div span{
+	font-size: 34px;
+}
+.wo .wo2{
+	float: left;
+}
+.wo .wo2 div{
+	margin-left: 64px;
+	margin-top: 26px;
+}
+.wo .wo2 p{
+	margin-left: 64px;
+}
+.d3{
+	width: 100%;
+	height: 2.5rem;
+	background: white;
+	margin-top: 15px;
+}
+.d3 .wt{
+	float: left;
+	margin-left: 15px;
+}
+.d3 div img{
+	float: left;
+}
+.d3 div h2{
+	float: left;
+	margin-top: 9px;
+	margin-left: 8px;
+}
+
+.d3 div h3{
+	float: left;
+}
+.d3 div a{
+	float: left;
+	margin-left: 5px;
+}
+.d3 .wt1{
+	float: right;
+	line-height: 2.5rem;
+	margin-right: 15px;
+}
+.d4{
+	width: 100%;
+	height: 8.4rem;
+	background: white;
+	border-top:1px solid #FAFAFA;
+}
+.d4 .py{
+	width: 48%;
+	border-right: 1px solid #FAFAFA;
+	float: left;
+	margin-top: 41px;
+}
+.d4 .py p{
+	margin-left: 100px;
+}
+.d4 .py div{
+	margin-left: 100px;
+	margin-top: 26px;
+	color: red;
+}
+.d4 .py div span{
+	font-size: 34px;
+}
+.d4 .py2 div span{
+	font-size: 34px;
+}
+.d4 .py2{
+	float: left;
+	margin-top: 41px;
+}
+.d4 .py2 div{
+	margin-left: 56px;
+	margin-top: 26px;
+	color: red;
+}
+.d4 .py2 p{
+	margin-left: 56px;
+}
+
+
+.d5{
+	width: 100%;
+	height: 2.5rem;
+	background: white;
+	margin-top: 29px;
+}
+.d5 .wt{
+	float: left;
+	margin-left: 15px;
+}
+.d5 div img{
+	float: left;
+}
+.d5 div h2{
+	float: left;
+	margin-top: 9px;
+	margin-left: 8px;
+}
+
+.d5 div h3{
+	float: left;
+}
+.d5 div a{
+	float: left;
+	margin-left: 5px;
+}
+.d5 .wt1{
+	float: right;
+	line-height: 2.5rem;
+	margin-right: 15px;
+}
+.d6{
+	width: 100%;
+	height: 8.4rem;
+	background: white;
+	border-top:1px solid #FAFAFA;
+}
+.d6 .py{
+	width: 48%;
+	border-right: 1px solid #FAFAFA;
+	float: left;
+	margin-top: 41px;
+}
+.d6 .py p{
+	margin-left: 100px;
+}
+.d6 .py div{
+	margin-left: 100px;
+	margin-top: 26px;
+	color: red;
+}
+.d6 .py div span{
+	font-size: 34px;
+}
+.d6 .py2 div span{
+	font-size: 34px;
+}
+.d6 .py2{
+	float: left;
+	margin-top: 41px;
+}
+.d6 .py2 div{
+	margin-left: 56px;
+	margin-top: 26px;
+	color: red;
+}
+.d6 .py2 p{
+	margin-left: 56px;
+}

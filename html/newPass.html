@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/base1.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/revisePass.css"/>
+		<script src="../js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/revisePass.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function(win,doc){
+				//浏览器缩放时
+				win.onresize=function(){
+					change();	
+				};
+				change();
+				function change(){
+					var oFs=doc.documentElement.clientWidth/(640/20);
+					//设置根目录字体大小
+					doc.documentElement.style.fontSize=oFs+'px';	
+				}	
+			})(window,document);
+		</script>
+	</head>
+	<body>
+		<header class="clearfix">
+			<a href="testType.html"><img src="../img/return.png" alt="" /></a>
+			<p class="txt">修改登录密码</p>
+		</header>
+		<div class="content">
+			<div class="inpassword">请输入长度为6-24位的登录密码验</div>
+			<div class="inp">
+				<img src="../img/lock.png" alt="" />
+				<input type="password" placeholder="输入新登录密码" id="keyWord"/>
+				<img src="../img/eye.png" alt="" />
+			</div>
+			<input type="button" class="sure" value="确定" id="yes"/>
+		</div>
+		<div class="alt">
+			<p>登录密码设置成功!</p>
+		</div>
+		<div class="bg"></div>
+	</body>
+	<script type="text/javascript">
+			$("#yes").click(function(ev){
+				var e=ev||event
+					$(".alt").show()
+					$(".bg").css({"background":"#333","width":"100%","height":"100%","opacity":"0.5","position":"absolute","index":"22","top":0,"display":"block"})
+					e.stopPropagation()
+			})
+			$(document).click(function(){
+				$(".alt").hide()
+				$(".bg").css({"background":"#333","width":"100%","height":"100%","opacity":"0.5","position":"absolute","index":"22","top":0}).hide()
+			})
+		</script>
+</html>

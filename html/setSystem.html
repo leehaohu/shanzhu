@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/base1.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/setSystem.css"/>
+		<script>
+			(function(win,doc){
+				//浏览器缩放时
+				win.onresize=function(){
+					change();	
+				};
+				change();
+				function change(){
+					var oFs=doc.documentElement.clientWidth/(640/20);
+					//设置根目录字体大小
+					doc.documentElement.style.fontSize=oFs+'px';	
+				}	
+			})(window,document);
+		</script>
+	</head>
+	<body>
+		<header class="clearfix">
+			<a href="../index.html"><img src="../img/return.png" alt="" /></a>
+			<p class="txt">系统设置</p>
+		</header>
+		<div class="content">
+			<div class="person">
+				<div class="logo">
+					<h1><img src="../img/logo.png"/></h1>
+					<div class="man">
+						<p class="name">*haohu</p>
+						<p class="account"><img src="../img/person.png"/>个人用户</p>
+					</div>
+				</div>
+				<div class="complete">
+					<p><a href="data.html"><span>完善个人资料</span><img src="../img/go.png" alt="" /></a></p>
+				</div>
+			</div>
+			<div class="inp">
+				<a href="testType.html">
+					<p>修改登录密码</p>
+					<img src="../img/go.png" alt="" />
+				</a>
+			</div>
+			<div class="inp">
+				<a href="smaLetter.html">
+					<p>官方微信号</p>
+					<img src="../img/go.png" alt="" />
+				</a>
+			</div>
+			<div class="inp1">
+				<a href="../login.html">退出登录</a>
+			</div>
+		</div>
+	</body>
+</html>
+

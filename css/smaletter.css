@@ -1,0 +1,60 @@
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both; }
+
+header {
+  width: 18rem;
+  height: 2.35rem;
+  background: #ffac2c;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 2.35rem;
+  color: #fff; }
+  header img {
+    position: absolute;
+    width: 0.5rem;
+    height: 0.7rem;
+    left: 0.8rem;
+    top: 0.8rem; }
+
+.text {
+  width: 18rem;
+  color: #AAAAAA;
+  height: 2.05rem;
+  background: #F5F5F5;
+  line-height: 2.05rem;
+  text-align: center; }
+
+.content {
+  width: 16.65rem;
+  margin: 0 auto; }
+  .content .con {
+    padding: 0.95rem 0;
+    color: grey;
+    font-size: 0.7rem; }
+    .content .con span:last-child {
+      color: #F85A2B;
+      font-size: 1rem; }
+  .content .con1 {
+    background: #FACD89;
+    position: relative;
+    padding: 0.2rem 0;
+    font-size: 0.8rem; }
+    .content .con1 .con1-1 img {
+      width: 1.75rem;
+      height: 0.7rem;
+      position: absolute; }
+    .content .con1 .con1-1 .con1-12 p {
+      text-align: center;
+      color: #F9713F; }
+    .content .con1 .con1-1 .con1-12 p:first-child {
+      padding-top: 1.65rem; }
+    .content .con1 .con1-1 .con1-12 p:last-child {
+      padding: 0.45rem 0; }
+  .content .con2 {
+    width: 16.65rem;
+    padding-top: 2rem;
+    text-align: center; }
+
+/*# sourceMappingURL=smaletter.css.map */
